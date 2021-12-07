@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+  
 }
+body {
+  margin:20px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.landingpage-container {
+  
+  background-color: darkgray;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.stack-header {
+  height: 430px;
+  width: 100%;
+  display:flex;
+ vertical-align: middle ;
+    align-items: center;
+  justify-content: space-between;
   flex-direction: column;
+  color: rgb(22, 2, 41);
+}
+.logo-img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blue;
+}
+h4 {
+  color: brown;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sheading {
+  display: flex;
+  padding: 10px;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  color: rgb(64, 7, 97);
+}
+.push-button {
+  height: 20px;
+  min-width: auto;
+  color:rgb(52, 10, 240);
+  vertical-align: middle;
+  align-self: center;
+   border-style: none;
+  background-color: darkgray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr{ 
+size: 40px;
+color: aqua;
 }
